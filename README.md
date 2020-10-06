@@ -26,7 +26,6 @@ $ cp source/.env_example source/keys/.env
 $ cd docker-compose up -d
 $ cd source/
 $ docker run --rm -it -v $PWD:/app composer install
-$ docker exec googlecalender_php_1 php notificationGoogleCalendarToSlack.php
 
 ```
 
